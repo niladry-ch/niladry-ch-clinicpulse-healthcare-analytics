@@ -212,3 +212,8 @@ Healthcare Data Analytics and Artificial Intelligence
 ### Reports
 
 ![Reports](assets/reports.png)S
+## Citation
+
+ClinicPulse Analytics (Version 1.5)
+
+DOI: https://doi.org/10.5281/zenodo.21007504
