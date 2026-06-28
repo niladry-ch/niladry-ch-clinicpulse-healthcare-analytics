@@ -1,0 +1,51 @@
+date,patient_id,status
+2026-06-01,P001,Completed
+2026-06-02,P002,Completed
+2026-06-03,P003,Completed
+2026-06-04,P004,Completed
+2026-06-05,P005,Completed
+2026-06-06,P006,Completed
+2026-06-07,P007,Completed
+2026-06-08,P008,Completed
+2026-06-09,P009,Completed
+2026-06-10,P010,Completed
+2026-06-11,P011,Completed
+2026-06-12,P012,Completed
+2026-06-13,P013,Completed
+2026-06-14,P014,Completed
+2026-06-15,P015,Completed
+2026-06-01,P016,Completed
+2026-06-02,P017,Completed
+2026-06-03,P018,Completed
+2026-06-04,P019,Completed
+2026-06-05,P020,Completed
+2026-06-06,P021,Completed
+2026-06-07,P022,Completed
+2026-06-08,P023,Completed
+2026-06-09,P024,Completed
+2026-06-10,P025,Completed
+2026-06-11,P026,Completed
+2026-06-12,P027,Completed
+2026-06-13,P028,Completed
+2026-06-14,P029,Completed
+2026-06-15,P030,Completed
+2026-06-01,P031,Completed
+2026-06-02,P032,Completed
+2026-06-03,P033,Completed
+2026-06-04,P034,Completed
+2026-06-05,P035,No Show
+2026-06-06,P036,No Show
+2026-06-07,P037,No Show
+2026-06-08,P038,No Show
+2026-06-09,P039,No Show
+2026-06-10,P040,No Show
+2026-06-11,P041,No Show
+2026-06-12,P042,No Show
+2026-06-13,P043,No Show
+2026-06-14,P044,Cancelled
+2026-06-15,P045,Cancelled
+2026-06-01,P046,Cancelled
+2026-06-02,P047,Cancelled
+2026-06-03,P048,Cancelled
+2026-06-04,P049,Cancelled
+2026-06-05,P050,Cancelled
