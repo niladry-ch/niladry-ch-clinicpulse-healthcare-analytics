@@ -177,3 +177,38 @@ ClinicPulse Analytics is a research and development prototype created for demons
 **Niladry Chowdhury**
 
 Healthcare Data Analytics and Artificial Intelligence
+## Screenshots
+
+### Dashboard
+
+![Dashboard](assets/dashboard.png)
+
+---
+
+### Claims Intelligence
+
+![Claims Intelligence](assets/claims-intelligence.png)
+
+---
+
+### Revenue Intelligence
+
+![Revenue Intelligence](assets/revenue-intelligence.png)
+
+---
+
+### Predictive Analytics
+
+![Predictive Analytics](assets/predictive-analytics.png)
+
+---
+
+### Upload Data
+
+![Upload Data](assets/upload-data.png)
+
+---
+
+### Reports
+
+![Reports](assets/reports.png)S

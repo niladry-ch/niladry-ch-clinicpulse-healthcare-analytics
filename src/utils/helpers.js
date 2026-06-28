@@ -4,6 +4,7 @@ export function normalizeText(value) {
 
 export function normalizeStatus(value) {
   const status = normalizeText(value).toLowerCase();
+  
     if (["complete", "completed"].includes(status)) {
     return "completed";
   }
