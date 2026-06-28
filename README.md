@@ -125,7 +125,7 @@ The project follows a modular React architecture that separates user interface c
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/clinicpulse-analytics.git
+git clone https://github.com/niladry-ch/niladry-ch-clinicpulse-healthcare-analytics.git
 ```
 
 Install dependencies
