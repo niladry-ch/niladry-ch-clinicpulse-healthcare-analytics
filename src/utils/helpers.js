@@ -4,7 +4,28 @@ export function normalizeText(value) {
 
 export function normalizeStatus(value) {
   const status = normalizeText(value).toLowerCase();
+    if (["complete", "completed"].includes(status)) {
+    return "completed";
+  }
 
+  if (
+    [
+      "no show",
+      "no-show",
+      "noshow",
+      "missed",
+      "absent",
+      "did not show",
+    ].includes(status)
+  ) {
+    return "no show";
+  }
+
+  if (["cancelled", "canceled", "cancel", "void"].includes(status)) {
+    return "cancelled";
+  }
+
+  // Claim statuses
   if (
     [
       "approved",
@@ -13,8 +34,6 @@ export function normalizeStatus(value) {
       "p",
       "accepted",
       "processed",
-      "complete",
-      "completed",
       "closed",
       "success",
     ].includes(status)
@@ -51,23 +70,6 @@ export function normalizeStatus(value) {
     ].includes(status)
   ) {
     return "pending";
-  }
-
-  if (
-    [
-      "no show",
-      "no-show",
-      "noshow",
-      "missed",
-      "absent",
-      "did not show",
-    ].includes(status)
-  ) {
-    return "no show";
-  }
-
-  if (["cancelled", "canceled", "cancel", "void"].includes(status)) {
-    return "cancelled";
   }
 
   return status;
