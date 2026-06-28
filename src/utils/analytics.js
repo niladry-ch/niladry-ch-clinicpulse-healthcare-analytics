@@ -137,9 +137,10 @@ export function getClaimRiskLevel(claim) {
 export function calculateHealthScore(metrics) {
   let score = 100;
 
-  score -= Number(metrics.denialRate) * 2;
-  score -= Number(metrics.noShowRate) * 1.5;
-  score -= Number(metrics.leakageRate) * 1.2;
+  // Moderate penalties
+  score -= Number(metrics.denialRate) * 1.0;
+  score -= Number(metrics.noShowRate) * 0.8;
+  score -= Number(metrics.leakageRate) * 0.5;
 
   return Math.max(0, Math.min(100, Math.round(score)));
 }
