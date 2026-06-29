@@ -30,6 +30,25 @@ export default function Login() {
     navigate("/dashboard");
   }
 
+  async function handleDemoLogin() {
+    setMessage("");
+    setLoading(true);
+
+    const { error } = await supabase.auth.signInWithPassword({
+      email: "demo@clinicpulse.ai",
+      password: "Demo123!",
+    });
+
+    setLoading(false);
+
+    if (error) {
+      setMessage(error.message);
+      return;
+    }
+
+    navigate("/dashboard");
+  }
+
   return (
     <div className="auth-shell">
       <section className="auth-brand-panel">
@@ -79,6 +98,15 @@ export default function Login() {
 
             <button type="submit" disabled={loading}>
               {loading ? "Signing in..." : "Sign In"}
+            </button>
+
+            <button
+              type="button"
+              className="demo-login-btn"
+              onClick={handleDemoLogin}
+              disabled={loading}
+            >
+              🚀 Try Demo
             </button>
           </form>
 
