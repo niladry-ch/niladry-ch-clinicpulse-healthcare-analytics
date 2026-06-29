@@ -9,6 +9,7 @@ import {
   Users,
   Moon,
   Sun,
+  LogOut,
 } from "lucide-react";
 
 export default function Sidebar({
@@ -16,6 +17,7 @@ export default function Sidebar({
   setPage,
   themeMode,
   setThemeMode,
+  handleLogout,
 }) {
   return (
     <aside className="sidebar">
@@ -96,6 +98,15 @@ export default function Sidebar({
         {themeMode === "light" ? <Moon size={18} /> : <Sun size={18} />}
         {themeMode === "light" ? "Dark Mode" : "Light Mode"}
       </button>
+
+
+      <button
+        className="logout-btn"
+        onClick={handleLogout}
+      >
+        <LogOut size={18} /> Logout
+      </button>
+
     </aside>
   );
 }
